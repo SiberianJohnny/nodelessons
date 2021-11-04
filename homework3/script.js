@@ -5,9 +5,6 @@ const ACCESS_LOG = '../../access.log';
 const search1 = '89.123.1.41';
 const search2 = '34.48.240.111';
 
-const regex1 = new RegExp(search1 + '.*', 'g');
-const regex2 = new RegExp(search2 + '.*', 'g');
-
 let result1 = [];
 let result2 = [];
 
